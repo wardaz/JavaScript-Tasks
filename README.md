@@ -2,6 +2,7 @@
 Javascript is a programming language designed to study the behaviour of web pages. It can change attribute, content and styles  of HTML. It is executed on client side therefore it is fast.
 
 Difference between Declaration and Initialization a variable.
+
 Declaring a variable is to declare its data type as well as its variable name like var x;
 Initializing a variable is to assign a value to that variable.
 
