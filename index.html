@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+    
+    <style>
+h2{
+    text-align: center;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <h2>Task-1</h2>
+    <p id="jspara">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A consequatur, laboriosam accusamus totam laudantium velit dignissimos maiores? Tenetur dolore repudiandae nobis recusandae at! Reprehenderit sapiente quis, qui ratione veritatis nemo.</p>
+
+    <h2>Task-2</h2>
+    <p id="para1" class="allpara">Ths is paragraph</p>   
+    <h1 class="allpara">Web Development Course</h1> 
+
+<script>
+    // 1. Write a program that declare a variable using var keyword and initializes any value to it. 
+ var x=1;
+ console.log(x);
+
+// 2. Write a program that declare a variable using constant keyword  and initializes 
+ const y=2;
+ console.log(y);
+
+//  3. Write  a Program that takes two variables X and Y ,  store the result in a new variable Z and prints a sum of it. 
+ var a=3;
+ var b=4;
+ var z=a+b;
+
+console.log("Sum is", z)
+ 
+// 4. Create a variable called "mycolor" , assign the value "Purple" to it.
+var mycolor= "purple";
+console.log(mycolor);
+
+// 5.
+var fname="Lucy"
+var lname="John"
+const age=25;
+
+console.log(fname);
+console.log(lname);
+console.log(age);
+
+// task # 1:
+document.getElementById("jspara").style.backgroundColor = "yellow";
+ document.getElementById("jspara").style.fontSize = "20px";
+ document.getElementById("jspara").style.color = "red";
+
+//  task # 2:
+// document.getElementsByClassName("allpara")[0].style.color = "red";
+// document.getElementsByClassName("allpara").style.color = "red";
+
+var add = document.getElementsByClassName("allpara");
+for (var i = 0; i < add.length; i++) {
+  add[i].style.color = "red";
+}
+ 
+ </script>
+
+</body>
+</html>
